@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        var topics = ["React", "HTML", "CSS", "JS", "Angular"];
+
+        var longest = "";
+        var longestLength = 0;
+        for (var t of topics) {
+            if (t.length > longestLength) {
+                longest = t;
+                longestLength = t.length;
+            }
+        }
+        document.write("<h1> " + longest + ", length " + longestLength + " </h1>")
+
+        // --------------------
+        var longest = "";
+        for (var t of topics) {
+            if (t.length > longest.length)
+                longest = t;
+
+        }
+        document.write("<h1> " + longest + ", length " + longest.length + " </h1>")
+        document.write("<br>")
+        // ----------------
+        var str = "Hello World!";
+
+        document.write("<h2>" + str.toUpperCase() + "</h2>")
+        document.write("<h2>" + str.toLowerCase() + "</h2>")
+        document.write("<h2>" + str.indexOf('W') + "</h2>")
+        document.write("<h2>" + str.slice(0, 4) + "</h2>")
+        document.write("<h2>" + str.replace('l', 'L') + "</h2>")
+        document.write("<h2>" + str.lastIndexOf('l') + "</h2>")
+
+        var x = "3+3";
+        document.write(x + "<br>");
+        document.write(eval(x));
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
