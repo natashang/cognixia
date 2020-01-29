@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        var topics = ["React", "HTML"];
+        
+        // appends an element to the end of the array
+        // React,HTML,Angular
+        topics.push("Angular");
+        document.write("<h3>" + topics + "</h3>");
+
+        // appends an element to the beginning of the array
+        // Vue,React,HTML,Angular
+        topics.unshift("Vue")
+        document.write("<h3>" + topics + "</h3>");
+
+        // removes an element from the end of the array
+        // Vue,React,HTML
+        topics.pop()
+        document.write("<h3>" + topics + "</h3>");
+
+        // removes an element from the beginning of the array
+        // React,HTML
+        topics.shift()
+        document.write("<h3>" + topics + "</h3>");
+
+        // appends another array
+        // React,HTML,Java,C,Scala,Kotlin
+        var prg = ['Java', 'C', 'Scala', 'Kotlin'];
+        var comb = topics.concat(prg, ['Haskel', 'Swift', 'Clojure']);
+        document.write("<h3>" + comb + "</h3>");
+
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

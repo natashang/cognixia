@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        var topics = ['rEAcT', 'hTMl', 'cSS', 'jS', 'aNgUlar'];
+        var newTopics = [];
+
+        for (var i = 0; i < topics.length; i++) {
+            var firstLetter = topics[i][0].toUpperCase();
+            var rest = topics[i].substring(1).toLowerCase();
+            newTopics.push(firstLetter+rest);
+        }
+        document.write("<h1>" + newTopics + "</h1>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
