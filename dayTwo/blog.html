@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Blog</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 10px;
+        }
+
+        .main {
+            width: 800px;
+            border: 1px solid black;
+            float: left;
+        }
+
+        .topics {
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+            height: 400px;
+        }
+
+        li :hover{
+           background-color: lightgreen; 
+        }
+        
+        .clearfix {
+            clear:both;
+        }
+
+        .author{
+            width: 1020px;
+            border: 1px solid black;  
+        }
+
+        .authorimg{
+            border-radius: 100px;
+        }
+
+        .menu {
+            display: inline;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <img src="banner.jpg" alt="clouds" width= "100%">
+
+    <ul>
+        <li class="menu">Sign In</li>
+        <li class="menu">Sign Up</li>
+    </ul>
+
+    <div class="main">
+
+        <h3>My Blog!</h3>
+        <h4 id="html">HTML</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eos modi, aperiam tempore necessitatibus rerum obcaecati mollitia laboriosam ad libero amet omnis? Neque atque natus maiores quisquam, adipisci deleniti sit earum rerum velit, dolorem incidunt totam voluptates facilis quod fugiat error eligendi rem consequuntur ratione delectus nam similique officiis. Placeat quasi magnam iusto. Consequuntur eius eligendi possimus iusto esse, doloremque similique. A atque quae asperiores beatae saepe aperiam consequuntur mollitia dolorem corporis quaerat dolores, veritatis voluptas molestias iste laborum. Iste nam blanditiis, quam voluptate nobis libero eaque! Nesciunt quo, cumque fugiat debitis incidunt non explicabo, odit commodi iure eligendi porro nihil quasi obcaecati aliquam quaerat. Modi, excepturi, temporibus, iure provident fugit obcaecati quisquam autem cum iusto voluptatum accusantium ut officia necessitatibus alias ipsam quas et dolor molestiae perferendis numquam! Eveniet dignissimos numquam cupiditate enim architecto hic, dolores, et fugit sint corrupti ipsum. Tempore officia qui et ex error quod totam dolores dolore voluptate eveniet veniam necessitatibus vero autem quaerat excepturi tenetur recusandae culpa, dignissimos ratione praesentium dolorem ipsa ut? Fugit, nesciunt similique. Architecto reprehenderit, temporibus ducimus veritatis soluta ipsum non iure voluptatum? Facilis corrupti voluptates commodi non consectetur, numquam nisi quos doloremque molestiae saepe odit nesciunt eos quibusdam illum accusamus.</p>
+
+        <h4 id="css">CSS</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eos modi, aperiam tempore necessitatibus rerum obcaecati mollitia laboriosam ad libero amet omnis? Neque atque natus maiores quisquam, adipisci deleniti sit earum rerum velit, dolorem incidunt totam voluptates facilis quod fugiat error eligendi rem consequuntur ratione delectus nam similique officiis. Placeat quasi magnam iusto. Consequuntur eius eligendi possimus iusto esse, doloremque similique. A atque quae asperiores beatae saepe aperiam consequuntur mollitia dolorem corporis quaerat dolores, veritatis voluptas molestias iste laborum. Iste nam blanditiis, quam voluptate nobis libero eaque! Nesciunt quo, cumque fugiat debitis incidunt non explicabo, odit commodi iure eligendi porro nihil quasi obcaecati aliquam quaerat. Modi, excepturi, temporibus, iure provident fugit obcaecati quisquam autem cum iusto voluptatum accusantium ut officia necessitatibus alias ipsam quas et dolor molestiae perferendis numquam! Eveniet dignissimos numquam cupiditate enim architecto hic, dolores, et fugit sint corrupti ipsum. Tempore officia qui et ex error quod totam dolores dolore voluptate eveniet veniam necessitatibus vero autem quaerat excepturi tenetur recusandae culpa, dignissimos ratione praesentium dolorem ipsa ut? Fugit, nesciunt similique. Architecto reprehenderit, temporibus ducimus veritatis soluta ipsum non iure voluptatum? Facilis corrupti voluptates commodi non consectetur, numquam nisi quos doloremque molestiae saepe odit nesciunt eos quibusdam illum accusamus.</p>
+        
+        <h4 id="javascript">JavaScript</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eos modi, aperiam tempore necessitatibus rerum obcaecati mollitia laboriosam ad libero amet omnis? Neque atque natus maiores quisquam, adipisci deleniti sit earum rerum velit, dolorem incidunt totam voluptates facilis quod fugiat error eligendi rem consequuntur ratione delectus nam similique officiis. Placeat quasi magnam iusto. Consequuntur eius eligendi possimus iusto esse, doloremque similique. A atque quae asperiores beatae saepe aperiam consequuntur mollitia dolorem corporis quaerat dolores, veritatis voluptas molestias iste laborum. Iste nam blanditiis, quam voluptate nobis libero eaque! Nesciunt quo, cumque fugiat debitis incidunt non explicabo, odit commodi iure eligendi porro nihil quasi obcaecati aliquam quaerat. Modi, excepturi, temporibus, iure provident fugit obcaecati quisquam autem cum iusto voluptatum accusantium ut officia necessitatibus alias ipsam quas et dolor molestiae perferendis numquam! Eveniet dignissimos numquam cupiditate enim architecto hic, dolores, et fugit sint corrupti ipsum. Tempore officia qui et ex error quod totam dolores dolore voluptate eveniet veniam necessitatibus vero autem quaerat excepturi tenetur recusandae culpa, dignissimos ratione praesentium dolorem ipsa ut? Fugit, nesciunt similique. Architecto reprehenderit, temporibus ducimus veritatis soluta ipsum non iure voluptatum? Facilis corrupti voluptates commodi non consectetur, numquam nisi quos doloremque molestiae saepe odit nesciunt eos quibusdam illum accusamus.</p>
+    </div>
+
+    <div class="topics">
+        <h4>Topics</h4>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#javascript">JavaScript</a></li>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="author">
+        <img src="avatar.png" alt="an avatar" class="authorimg">
+        <p>Welcome to my blog! I am an explorer from the PNW.</p>
+    </div>
+
+</body>
+</html>
