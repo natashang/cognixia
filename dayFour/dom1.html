@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+
+</head>
+
+<body>
+    <h1 name="test">welcome to DOM</h1>
+    <h1 id='x2' name="test">Welcome to JS</h1>
+
+    <script>
+
+        /*  // result: [object HTMLDocument], object of type HTMLDocument
+         alert(document); 
+ 
+         // [object HTMLHtmlElement]
+         // points to line 2, <html lang="en">
+         alert(document.documentElement); */
+
+        // [object HTMLHeadingElement]
+        var hd = document.querySelector('h1');
+        alert(hd.textContent);
+
+        // welcome to DOM
+        // welcome to DOM
+        //alert(hd.textContent);
+
+        /*
+        var a = document.querySelector('#x2');
+        alert(a.textContent);
+        */
+
+        var a = document.getElementById('x2');
+        alert(a.textContent);
+
+        // getElementsByName returns an array
+        // length 2 for <h1>DOM, <h1>JS
+        alert(document.getElementsByName('test').length);
+
+    </script>
+</body>
+
+</html>

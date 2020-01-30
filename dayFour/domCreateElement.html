@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+    <div></div>
+
+    <!-- Create a list of 'react,angular,javascript' in the DOM-->
+
+    <script>
+        ///window.onload = function() {
+           
+            var ol = document.createElement('ol');
+
+            var li1 = document.createElement('li');
+            li1.textContent = "React";
+            ol.append(li1);
+
+            var li2 = document.createElement('li');
+            li2.textContent = "Angular";
+            ol.append(li2);
+
+            var li3 = docuemnt.createElement('li');
+            li3.textContent = "JavaScript";
+            ol.append(li3);
+            
+           document.querySelector('div').append(ol);
+
+        //}
+    </script>
+</body>
+</html>

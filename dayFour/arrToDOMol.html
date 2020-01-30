@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Topics 
+            <input type="text" placeholder="Enter a topic" >
+            <button onclick="addToTopics();">Add to List</button>
+        </h1>
+        <h2>
+            <ol></ol>
+        </h2>
+        
+    </div>
+    <script>
+
+        /* Render this array to the DOM as an ordered list */
+        var topics = ['React', 'HTML', 'JS'];
+        
+        // ------- returns as an unordered list
+        /*
+        var li = topics.map(function (t) {
+            return "<li>" + t + "</li>"
+        });
+        document.write(li);
+        */
+
+        // -------- returns as an ordered list
+
+        var ol = document.createElement('ol');
+        topics.forEach(function (t) {
+            var li = document.createElement('li');
+            li.textContent = t;
+            document.querySelector('ol').append(li);
+        });
+
+
+        /* Add a text box with a button (on click add the new topic to the list) */
+        function addToTopics() {
+            var val = document.querySelector('input').value;
+            topics.push(val);
+
+            var li = document.createElement('li');
+            li.textContent = val;
+            document.querySelector('ol').append(li);
+            //alert(topics);
+
+            document.querySelector('input').value="";
+        }
+    </script>
+</body>
+
+</html>
