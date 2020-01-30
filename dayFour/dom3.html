@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <!-- Say you are required to have the script in the head. 
+        When querying for the elements, they are not yet defined so doesn't work
+        Instead, use window.onload() method -->
+    <script>
+        window.onload = function () {
+            // query by tag name <h3>
+            alert(document.querySelectorAll('h3').length);
+
+            // querySelectorAll() is a function that returns an array
+
+            //alert(document.querySelectorAll('h3')[0].textContent);
+            var qArr = document.querySelectorAll('h3');
+            for (var q of qArr) {
+
+                // retrieve array values
+                //            document.write("<h1> hey! " + q.textContent + "</h1>");
+
+                // modify array values
+                q.textContent = "hey heyyyyyy";
+                q.style.backgroundColor = "lightblue";
+            }
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+    <h3>Head 1</h3>
+    <h3>Head 2</h3>
+    <h3>Head 3</h3>
+
+
+</body>
+
+</html>

@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <script>
-        var num1 = parseInt(prompt("num 1"));
-        var num2 = parseInt(prompt("num 2"));
-
-        var sum = 0;
-
-        for (var i = num1; i <= num2; i++) {
-            sum = sum + i;
-        }
-
-        document.write(sum);
-    </script>
 </head>
+
 <body>
-    
+
+    <div></div>
+
+    <script>
+        var h1 = document.createElement('h1');
+        h1.textContent = "hello DOM!!!";
+        document.querySelector('div').append(h1);    
+    </script>
+
+
 </body>
+
 </html>
