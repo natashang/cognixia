@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In</title>
+
+    <style>
+        * {
+            font-size: 20px;
+            margin: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        function validate(frm) {
+
+            if (frm.login.value == "" || frm.psswd.value == "") {
+                alert("Both login and password are required!");
+                return false;
+            }
+            else {
+
+                if (!(frm.login.value == "test" && frm.psswd.value == "123")) {
+                    var warning = document.getElementById('warning');
+                    warning.textContent = "invalid login and password.";
+                    warning.style.color = 'red';
+                    return false;
+                }
+
+                else {
+                    alert("valid");
+                    return false;
+                }
+                return false;
+            }
+
+
+            //            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+
+
+    <h1>Sign In</h1>
+
+    <div>
+        <form onsubmit="validate(this);">
+
+            <fieldset>
+                <p>Login <input type="text" name="login"></p>
+                <p>Password <input type="text" name="psswd"></p>
+                <button>Sign In</button>
+                <p id="warning"></p>
+            </fieldset>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
