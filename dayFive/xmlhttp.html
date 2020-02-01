@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello Ajax</h1>
+
+    <button onclick="buttonClick();">Get Data</button>
+
+    <script>
+
+
+
+        let buttonClick = () => {
+            var xhr = new XMLHttpRequest();
+
+            /*
+                want to pull file asychronously, true
+                want to be blocked? and wait? false. 
+                Also the alert does not happen
+            */
+
+            /*
+                Here, the server is localhost (127.0.0.1), port 5500
+                When we click the button, the request for data goes to text.txt
+                which is is the same origin
+                This is a same origin request
+            */
+            xhr.open("GET", "http://127.0.0.1:5500/text.txt", true);
+
+            /*
+                Access to XMLHttpRequest at 'https://www.amazon.com/' 
+                from origin 'http://127.0.0.1:5500' has been blocked 
+                by CORS policy: No 'Access-Control-Allow-Origin' 
+                header is present on the requested resource.
+                Failed to load resource: net::ERR_FAILED
+
+                xhr.open("GET", "https://www.amazon.com", true);
+            */
+
+            xhr.send();
+
+            xhr.onload = () => {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    alert(xhr.response);
+
+                }
+
+                // "Not Found", "OK"
+                // alert(xhr.statusText);
+            };
+        };
+
+
+    </script>
+
+</body>
+
+</html>
