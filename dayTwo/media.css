@@ -1,0 +1,27 @@
+/* 
+    media SCREEN - viewing from the screen
+    media PRINT - viewing from a print format
+*/
+
+        @media print and (max-width: 800px) {
+            div {
+                color: red;
+                font-size: 12px;
+            }
+        }
+        
+        /* 800px is the breakpoint */
+        @media screen and (max-width: 800px) {
+            div {
+                color: red;
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            div {
+                color: blue;
+                font-size: 30px;
+                text-transform: uppercase;
+            }
+        }

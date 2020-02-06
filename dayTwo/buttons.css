@@ -1,0 +1,27 @@
+button {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    width: 100px;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
+
+#gray {
+    background-color: gray;
+    color: black;
+}
+
+#black {
+    background-color: black;
+}

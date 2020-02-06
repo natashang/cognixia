@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.main {
+    width: 800px;
+    border: 1px solid black;
+    float: left;
+}
+
+.topics {
+    width: 200px;
+    border: 1px solid black;
+    float: left;
+    height: 400px;
+}
+
+li :hover{
+   background-color: lightgreen; 
+}
+
+.clearfix {
+    clear:both;
+}
+
+.author{
+    width: 1020px;
+    border: 1px solid black;  
+}
+
+.authorimg{
+    border-radius: 100px;
+}
+
+.menu {
+    display: inline;
+    text-decoration: none;
+}
