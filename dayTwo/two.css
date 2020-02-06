@@ -1,0 +1,20 @@
+.mystylex {
+    color: blue;
+}
+
+h1.mystyley{
+    color: pink;
+}
+
+p {
+    text-decoration: underline;
+    text-decoration-color: rgb(221, 64, 16);
+}
+
+#xyz {
+    text-decoration: none;
+}
+
+input[type="text"] {
+    background-color: burlywood;
+}
