@@ -1,0 +1,33 @@
+* {
+    margin: 10px;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg");
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: coral;
+    color:white;
+    border-color: red;
+}
+
+
+h1 {
+    font-family: 'Merienda', cursive;
+    color: red;
+}
+
+ol li {
+    color: white;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+}
