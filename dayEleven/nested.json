@@ -1,0 +1,13 @@
+{
+    "empdetails": {
+      "firstName": "natasha",
+      "lastName": "n",
+      "id": 20,
+      "address": {
+        "street":"12345 Main Ave",
+        "city":"Belltown",
+        "state":"California",
+        "country":"United States"
+      }
+    }
+  }

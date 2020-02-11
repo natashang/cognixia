@@ -1,0 +1,175 @@
+Q #1) What is JSON? Explain?
+
+Ans: JSON is the abbreviation of JavaScript Object Notation. It is one of the simplest data interchange format. It is also independent of programming language and platform. Its lightweight text-based structure makes it easily readable by a human. It is derived from JavaScript for presenting simple data in the form of key-value pairs.
+
+It is often used for serialization and transmission of data between the network connections. It is mostly used for data transmission between a web application and the server thereby making it a popular alternative to the XML format.
+
+Q #2) Who is known as the father of JSON?
+
+Ans: Douglas Crockford is known as the father of JSON. Douglas Crockford was the person who originally defined the JSON format back in 2000.
+
+Q #3) Do all the programming languages and platforms support JSON?
+
+Ans: Yes, most of the technologies that work with the data transmission between the systems support JSON format. Due to its text-based nature, nearly all the programming languages and platforms can support JSON. The languages which support JSON include javascript, C, C++, C#, Perl, Java, Python, Php, etc.
+
+Q #4) What is meant by JSON objects?
+
+Ans: An object is defined as a set of key-value pairs. A JSON starts with a left brace “{“ and ends with another right brace “}”. Every key is followed by a colon “:” and the key-value pairs are separated from each other by using a comma “,”. So, basically, JSON object is a collection of keys along with their values arranged in a pre-specified JSON format.
+
+Q #5) What is the extension of the JSON file?
+
+Ans: A JSON file has an extension of “.json”. Being in a text-based format, a JSON file can be viewed or edited using any text editor like notepad or notepad++.
+
+Q #6) Explain in detail about the advantages and features of JSON?
+
+Ans: JSON structure possesses numerous advantages over the other data interchange formats. They are:
+
+Easy to use and fast nature. JSON syntax offers easy parsing of data and even faster implementation. The light-weight structure of JSON allows it to respond at a much faster rate.
+Compatible with numerous operating systems and browsers. This allows JSON schema to be attuned to many platforms without requiring any extra effort to make sure its compatibility with another platform.
+Supports a wide range of data types including integers, double, String, Boolean, etc.
+
+Q #7) What are the limitations of JSON?
+
+Ans: JSON is one of the most popular data interchange format available in today's scenario. It has several advantages over the other formats but at the same time, it also has its own set of limitations too. They are:
+
+As the data gets complex with several nested or hierarchical structures, it becomes complex for human readability.
+JSON is not suitable for handling very complex large data.
+JSON doesn’t have support for handling multimedia formats such as rich text or images.
+It doesn’t support comments.
+
+Q #8) What are the uses of JSON?
+
+Ans: JSON is mainly used for data interchange between two systems.
+
+JSON is prominently used for transmission of serialized data over a network connection between two systems.
+APIs and web services use JSON to format and transfer data.
+JSON can be used in combination with most of the modern programming languages.
+JSON can be used with JavaScript applications such as browser plugins and websites.
+JSON can be used to read data from the web server and display data on the web pages.
+
+Q #9) Explain JSON syntax rules?
+
+Ans: There are several rules that describe the structure of the JSON. They are:
+
+Data inside a JSON is arranged in Key value pair. The left side represents the key and the data on the right side represents value. Both key and value are separated by a colon “:”.
+Each set of key-value pair is separated from the other pair by using a comma “,”.
+Curly braces define the JSON objects. Left curly brace “{“ represents the start of the object and right curly brace “}” represents the end of an object.
+Arrays are defined inside a JSON object by using square brackets “[ ]”.
+
+Q #10) What are the advantages of JSON over XML?
+
+Ans: JSON has emerged as one of the most popular data interchange methods. It has several advantages over the XML that has to help it to replace XML as a most popular data transfer format.
+
+JSON is lighter and faster than the XML.
+JSON has object types but XML doesn’t define objects as types. JSON has different object type for a different set of data such as string, integer, Boolean, array, etc. All XML objects are categorized as just one data type, i.e. string.
+JSON data can be easily accessed as a JSON object using JavaScript. On the other hand, the XML data need to be parsed and allocated to the variables using APIs. Getting value out of a JSON is as easy as reading an object from your JavaScript programming.
+This text-based lightweight nature makes JSON more accessible and useful than XML.
+
+Q #11) What are the similarities between JSON and XML?
+
+Ans: There are several similarities that can be found between JSON and XML. They are:
+
+Both JSON and XML are used to transfer data between different systems.
+Both JSON and XML have a simple structure and are readable by the human.
+Both are independent of programming language.
+Both JSON and XML supports nested or hierarchical structures.
+Both of these can be parsed easily through several programming.
+Both these structures have support for Unicode.
+
+Q #12) Name the browsers that support JSON format?
+
+Ans: Support for JSON is included in almost all the new versions of the browsers. Internet Explorer, Chrome, Safari, Mozilla Firefox, etc. all support JSON format.
+
+Q #13) Explain the use of NewtonSoft framework Net?
+
+Ans: Json.net or Newtonsoft is one of the most popular frameworks used in .net for performing operations with JSON.
+
+It enables the users to parse, create, modify and query JSON using its internal framework objects such as JArray, JValue, JObject, etc.
+It provides an easier solution for querying JSON with the syntax similar to XPath.
+It enables the user to serialize or de-serialize any objects in .net with its great JSON serializer.
+It is faster than contemporary serializers.
+Easy to use and simple.
+It also supports conversion from XML to JSON or vice versa.
+One of the most important features is its free and open-source nature.
+
+Q #14) How to use newtonSoft or JSON.net for serializing JSON data?
+
+Ans: Newtonsoft or JSON.net is one of the most widely used frameworks for serializing deserializing JSON structure in a .net environment.
+
+To start converting the data into a JSON structure, we need to create an object to store the data.
+
+Car car = new car();
+Once we have created a new object we can define/store the keys and variable in that object.
+
+car.Brand = "Hyundai";
+car.Name = “Verna”;
+car.Color = “Red”;
+Once all the data are stored in the defined object, then we can serialize it using SerializeObject.
+
+string json = JsonConvert.SerializeObject(car);
+The JSON structure will be stored in the string defined. The structure will be something like this:
+
+{
+"Brand":"Hyundai",
+"Name": "Verna",
+"Color": “Red”
+}
+
+Q #15) How to use newtonSoft or JSON.net for deserializing the JSON data?
+
+Ans: Newtonsoft also provides functionality for deserializing the JSON structure to retrieve the data. The deserialization process is just like the reverse of serialization. We will be following almost the same steps but in reverse order.
+
+At first, we need to store the JSON that we want to deserialize in a string.
+
+string JSON = @"{
+"Brand": "Hyundai",
+"Name": "Verna",
+"Color": “Red”
+}
+Once we have stored the JSON structure in a string, we will use the following command to deserialize it and to receive a different data.
+
+Car m = JsonConvert.DeserializeObject<Car>(JSON);
+Now we will retrieve all the data from the JSON list one by one.
+
+string Brand = m.Brand;
+string Name = m.Name;
+string Color = m.Color;
+
+Q #16) Can a comment be added inside a JSON file?
+
+Ans: As per the structure, JSON doesn’t support any comments. The only thing that can be done is to use a Key or data object to hold your comments and during the processing of the JSON make sure that your application ignores the given data element.
+
+Q #17) Name some of the most widely used libraries in .net for JSON?
+
+Ans: There are several popular libraries available for JSON in .net. some of them are:
+
+Newtonsoft: It is one of the most widely used frameworks to convert using c#. It is quite famous because of its flexibility and performance. It also supports JSON to XML conversion.
+DataContractJsonSerializer: This is the built-in library provided by Microsoft for handling JSON objects within the .net environment.
+
+Q #18) What is the use of JSON.parse in JavaScript?
+
+Ans: It is used to parse the data present inside the JSON into objects for using its values.
+
+Let's have a look at the syntax used to parse JSON data.
+
+string json = ‘{
+"Brand": "Hyundai",
+"Name": "Verna",
+"Color": “Red”
+}’
+var obj = JSON.parse(json);
+This will convert JSON data into the object from which we can retrieve the data for using with the application.
+
+Q #19) Explain JSONP in a simple language.
+
+Ans: JSONP is also known as JSON with Padding. It is a communication technique used by the JavaScript programs to call data from a server that is present in a domain, which is different than that of the client. JSONP allows the users to share data without restriction of the cross-domain or same-origin policy of the system and the environment.
+
+Q #20) What are the limitations of JSONP?
+
+Ans: JSONP is used to bypass the same-origin policy of web browsers. It may seem like a perfect way to get around the restriction but it has its own set of limitations as well. They are:
+
+As all the JSONP calls are made by including a <script> tag, the request made is confined only to the GET method.
+It cannot be used for POST or PUT request.
+It can be used only for read-only services and APIs.
+
+source: https://www.softwaretestinghelp.com/top-json-interview-questions/
