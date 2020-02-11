@@ -1,0 +1,40 @@
+{
+    "empdetails":
+    [
+        {
+            "empname": "Sammy",
+            "empid":"5",
+            "emplocation":"Seattle",
+            "email":"sammy@email.com",
+            "salary":"45000"
+        },
+        {
+            "empname": "Petunia",
+            "empid":"6",
+            "emplocation":"Privet",
+            "email":"petunia@abc.com",
+            "salary":"80000"
+        },
+        {
+            "empname": "Alexandria",
+            "empid":"7",
+            "emplocation":"Los Angeles",
+            "email":"alex@amazing.com",
+            "salary":"100000"
+        },
+        {
+            "empname": "Joo Ho",
+            "empid":"8",
+            "emplocation":"Seoul",
+            "email":"bjh@parasite.com",
+            "salary":"250000"
+        },
+        {
+            "empname": "Max",
+            "empid":"9",
+            "emplocation":"Skies",
+            "email":"max.ride@gmail.com",
+            "salary":"75000"
+        }
+    ]   
+}

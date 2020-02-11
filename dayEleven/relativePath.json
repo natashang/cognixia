@@ -1,0 +1,22 @@
+{
+    "store": 
+    {
+        "Book": [
+            {
+                "category":"test",
+                "author":"xyz",
+                "price":5
+            },
+            {
+                "category":"test1",
+                "author":"abc",
+                "price":7
+            }
+        ]
+    ,
+    "car": {
+        "color":"red",
+        "price":8
+    }
+}
+}

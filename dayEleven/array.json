@@ -1,0 +1,14 @@
+{
+    "empdetails": [
+        {
+            "empname": "natasha",
+            "empid": "3",
+            "location": "disneyland"
+        },
+        {
+            "empname":"nathanial",
+            "empid":"4",
+            "location": "anaheim"
+        }
+    ]
+}
