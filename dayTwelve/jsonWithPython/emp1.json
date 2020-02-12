@@ -1,0 +1,16 @@
+{
+    "firstname": "john",
+    "lastname": "smith",
+    "address": [
+        {
+            "street": "main ave",
+            "city": "disneyland",
+            "state": "california"
+        },     
+        {
+            "street": "second ave",
+            "city": "anaheim", 
+            "state": "washington"
+        }
+    ]
+}

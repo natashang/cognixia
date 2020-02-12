@@ -1,0 +1,37 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Mickey Mouse",
+            "movie":"Steamboat Willie",
+            "animal":true,
+            "address": {
+                "street": "1 Disneyland Drive",
+                "city": "Anaheim",
+                "state": "California"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Donald Duck",
+            "movie": "The Three Musketeers",
+            "animal":true,
+            "address": {
+                "street": "2 Disneyland Drive",
+                "city": "Anaheim",
+                "state": "California"
+            }
+        }, 
+        {
+            "id": 3,
+            "name": "Goofy",
+            "movie": "Once Upon a Christmas",
+            "animal": false,
+            "address": {
+                "street": "1 Disneyland Drive",
+                "city": "Anaheim",
+                "state": "California"
+            }
+        }
+    ]
+}
