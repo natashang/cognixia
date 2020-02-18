@@ -1,0 +1,78 @@
+// display:flex, justify-content:center; align-items:vertical-align;
+
+  /*  
+fs.readFile('./filesystemtext.txt', (err,data) => {
+    process.stdout.write(data)
+})
+*/
+    fs.readFile('./form.html', (error, data) => {
+        /*
+        if (error) {
+            console.log("houston we got a problem")
+            res.writeHead(500)
+            res.end()
+        }
+        else {
+            res.writeHead(200, {'Content-Type': 'text/html'})
+            res.end(content, 'utf-8')
+        }
+        */
+       res.writeHead(200, {'Content-Type': 'text/html'})
+    })
+
+
+----------------------------
+
+
+const express = require('express')
+const path = require('path')
+const fs = require('fs')
+const ejs = require('ejs')
+const app = express()
+const port = 3000
+
+//const formview = require('./appView/formview.js')
+// body parser {true}
+app.use(express.static('appView'))
+app.use(express.urlencoded())
+
+const htmlfile = require('./appView/form.html')
+
+app.set("views", path.join(__dirname, "./appView"))
+app.engine('html', ejs.renderFile)
+app.set("view engine", "html")
+
+/*
+express app
+2 routes, one route using .post() method, one .get()
+    .post route: use fs module to save from post body to disk
+    .get route: HTML file with comment form: email, comment. action: .post() route value
+timestamp via Date()
+
+*/
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + './form.html')
+    console.log("sent html file")
+    
+})
+
+function formParser(html) {
+    console.log("html: "/*, html*/)
+    /*
+    let commentfield = html.form.commentfield.value
+    console.log("commentfield: ", commentfield)
+    */
+}
+
+app.get ('/history', (req, res) => {
+    console.log("hey")
+})
+
+app.post('/history', (req, res) => {
+    console.log('oi')
+})
+
+app.listen(
+    port,
+    () => console.log(`App listening on port ${port}`)
+)
