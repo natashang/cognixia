@@ -1,0 +1,15 @@
+html
+    body
+        h1 Hello there
+        p Write your comment below.
+        
+        form(method='POST' action='/history')
+            div.form-group
+                label(for='comment') Write a comment here:
+                input#name.form-control(type='text', placeholder='Begin typing now ...' name='comments')
+            button.btn.btn-primary(type='submit') Submit
+
+        h2 Previous comments logged
+        
+        
+            
