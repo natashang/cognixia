@@ -1,0 +1,32 @@
+// this doesn't work!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/*
+create user:
+security, help prevent potential hijacking
+
+*//* Get a single user */
+// API request: https://reqres.in/api/users/2
+
+const axios = require('axios').default;
+
+// lets it select by itself, based on what the server is giving
+// resp for response
+const fn = (req, res) => {
+    var regex = /[\W_]/g
+
+    console.log(req.body)
+
+     axios.post('https://reqres.in/api/users', {
+        name: req.body.name ? req.body.name.replace(regex, ''): '',
+        job: req.body.job ? req.body.job.replace(regex, ''): ''
+     })
+
+//    axios.get('http://reqres.in/api/users/' )
+        
+     .then((resp) => {
+         res.send(resp.data)
+     }).catch((err) => {
+         res.send(err)
+     })
+}
+
+module.exports = fn
