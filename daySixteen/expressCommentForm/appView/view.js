@@ -12,12 +12,32 @@ const html= (model) => {
     `
 }
 
+const resultTable = (model) => {
+    const html = `
+        <html>
+        <div style='display:flex; justify-content:center;align-items:vertical-align;>
+    `
+
+    return model.map ( (item) => {
+        html += `
+            <span>${item.email}</span>
+            <span>${item.comment}</span>
+        `
+        return true
+    })
+
+    html += `
+        </div>
+        </html>
+    `
+}
+
 const export2 = {
     'object': null
 }
 
 module.exports = {
-    html, export2
+    html, export2, resultTable
 }
 
 /*
