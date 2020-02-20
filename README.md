@@ -1,12 +1,13 @@
 # cognixia
 Front end development training
-## Languages: HTML, CSS, JavaScript, T SQL, JSON, npm, nodeJS
+## Languages: HTML, CSS, JavaScript, T SQL, JSON
+## Tools: npm, nodeJS, Express, MongoDB, ~~PostgreSQL~~, MySQL Workbench, Postman
 ---
 ## Weekly Guide (with Projects)
 1. HTML, CSS, JavaScript
 2. T SQL ([database design](../dayTen/dayFour_DB_design_exercises))
 3. JSON
-4. npm, nodeJS ([comment form](../daySixteen/expressCommentForm))
+4. npm, nodeJS, Express ([comment form](../daySixteen/expressCommentForm)), MongoDB([Basic MongoDB API](../dayEighteen/sampleMongoProject2)), ~~PostgreSQL~~, MySQL ([Basic MySQL API](../dayEighteen/sampleMySQLProject))
 ---
 ### Week 1: HTML, CSS, JavaScript
 
@@ -27,5 +28,5 @@ Front end development training
 * **Testing:** Software Development Life Cycle (SDLC), Agile methodology, unit testing, integration testing, system testing
 
 ---
-### Week 4: npm, nodeJS
-* **nodeJS:** webpack, yeoman, file systems module, HTTP, streams, Express, Hapi, Pug
+### Week 4: npm, nodeJS, APIs (with Express, MongoDB, ~~PostgreSQL~~, MySQL)
+* **nodeJS:** webpack, yeoman, file systems module, HTTP, streams, Express, Hapi, Pug, MongoDB, Postman, RoboMongo, MySQL
