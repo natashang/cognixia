@@ -1,3 +1,9 @@
+/**
+ * Query module for retrieving all users in a system
+ * @param {express.Request} req 
+ * @param {express.Response} res 
+ * @param {mysql.Connection} connection 
+ */
 const fn = (req, res, connection) => {
 
     const query = `
@@ -8,13 +14,8 @@ const fn = (req, res, connection) => {
         query,
         (err, result) => {
         if (err) throw(err)
-        
-            /* from mongofiles:
-              console.log("1 query inserted: " + results)
-                res.send("1 query inserted")
-            */
 
-        console.log("Users found, mongo result: " + result)        
+        console.log("Users found, MySQL result: " + result)        
         // tests in the browser, http://localhost:3000/getusers 
         res.send(result) 
     })
