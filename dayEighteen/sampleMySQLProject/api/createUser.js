@@ -1,3 +1,9 @@
+/**
+ * Query module for creating users wtihin the system
+ * @param {express.Request} req 
+ * @param {express.Response} res 
+ * @param {mysql.connection} connection 
+ */
 const fn = (req, res, connection) => {
 
     const query = `

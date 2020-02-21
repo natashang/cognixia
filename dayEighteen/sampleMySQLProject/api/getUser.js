@@ -1,9 +1,13 @@
+/**
+ * Query module for getting a user within the system
+ * @param {express.Request} req 
+ * @param {express.Response} res 
+ * @param {mysql.connection} connection 
+ */
 const fn = (req, res, connection) => {
 
-    //console.log(req.query) // {name: 'amazing'}
-    //console.log(req.body) // {name:'amazing', email:'a@grace.com', address:'1234 Main street'}
-    //console.log(queryArray) // ['name', 'email', 'address']
     const input = req._parsedUrl.query
+    //console.log(req._parsedUrl)
     let where = ``
 
     if (input.includes('name') || input.includes('address') || input.includes('email') ){
@@ -11,7 +15,6 @@ const fn = (req, res, connection) => {
         let param = input.substring(0, equalsIndex)
         let arg = "'"+input.substring(equalsIndex+1)+"'"
         where = param + " LIKE "+ arg
-        console.log("where clause: " + where)
     }
     const query = `
     SELECT * FROM USER WHERE ${where};
