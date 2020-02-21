@@ -1,21 +1,30 @@
+const bcrypt = require('bcrypt')
+
 /**
  * Creates a user in the database of users
  * @param {Express.Request} req 
  * @param {Express.Response} res 
  * @param {*} model 
  */
-const fn = (req, res, model) => {
-    return model.create({
-        username: req.body.username,
-        password: req.body.password,       
-        firstname: req.body.firstname,
-        lastname: req.body.lastname,
-        email: req.body.email,
-        address: req.body.address,
-        city: req.body.city,
-        state: req.body.state,
-        zip: req.body.zip
-    })
+const saltRounds = 10
+const fn = (req, res, model, callback) => {
+    bcrypt
+    .hash(
+        req.body.password, 
+        saltRounds)
+        .then( (hash) => {
+            return model.create({
+                email: req.body.email,
+                username: req.body.username,
+                password: req.body.password,       
+                name: req.body.name
+            })
+        })
+        .catch( (err) => {
+            if (err) {
+                res.send(err)
+                throw err
+            }
+        })  
 }
-
 module.exports = fn
