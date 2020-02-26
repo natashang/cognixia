@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Welcome to my To Do app!</h1>
-        <p> Enter some items below with the Form class component</p>
+        <p> Enter some items below with the Form class component with subcomponents Form and List</p>
         <FormViaClass/>
         <p> Enter some items below with the Form functional component</p>
         <FormViaFunc/>

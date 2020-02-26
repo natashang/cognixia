@@ -1,13 +1,13 @@
 import React from 'react'
+import './form.css'
 
-function Form(props) {
+
+export default function Form(props) {
     return(
-        <form onSubmit={props.handleInputSubmit}>
-            {/* value={props.value} */}
-            <input ref={props.value} type="text"  autoFocus onChange={props.handleInputChange}/>
+        <form onSubmit={(value) => props.handleInputSubmit(value)} >
+            <input value={props.value} type="text" autoFocus onChange={(value) => props.handleInputChange(value)}/>
             <input type="submit" value="Add" id="submitButton"/>            
         </form>
     )    
 }
 
-export default Form;
