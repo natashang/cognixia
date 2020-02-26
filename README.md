@@ -31,3 +31,7 @@ Front end development training
 ### Week 4: npm, nodeJS, APIs (with Express, MongoDB, ~~PostgreSQL~~, MySQL)
 * **nodeJS:** webpack, yeoman, file systems module, HTTP, streams, Express, Hapi, Pug, MongoDB, Postman, RoboMongo, MySQL, code documentation
 * **Databases:** MongoDB, MySQL, Sequelize
+
+---
+### Week 5: React
+* **React:** functional components, class components, props, state, constructors, hooks, router-DOM, switch, refs

@@ -5,4 +5,4 @@ insert into user values("Mickey Mouse", "mickey@disneyland.com", "Disneyland");
 select * from user;
 SELECT *
         FROM USER
-        WHERE name=amazing
+        WHERE name="amazing";

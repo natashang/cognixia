@@ -3,15 +3,10 @@ const sequelize = require('../database')
 class User extends Model {}
 
 User.init({
-  username: DataTypes.CHAR,
+  email: {type: DataTypes.CHAR},
+  username: DataTypes.CHAR, 
   password: DataTypes.CHAR,
-  firstname: DataTypes.CHAR,
-  lastname: DataTypes.CHAR,
-  email: DataTypes.CHAR,
-  address: DataTypes.CHAR,
-  city: DataTypes.CHAR,
-  state: DataTypes.CHAR(2),
-  zip: DataTypes.CHAR(5)
+  name: DataTypes.CHAR
 }, { sequelize, modelName: 'user' });
 
 module.exports = User
