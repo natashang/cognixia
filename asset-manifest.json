@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/cognixia/basic-to-do-app/static/css/main.f1eec35d.chunk.css",
-    "main.js": "/cognixia/basic-to-do-app/static/js/main.c5f0456e.chunk.js",
-    "main.js.map": "/cognixia/basic-to-do-app/static/js/main.c5f0456e.chunk.js.map",
-    "runtime-main.js": "/cognixia/basic-to-do-app/static/js/runtime-main.6d032266.js",
-    "runtime-main.js.map": "/cognixia/basic-to-do-app/static/js/runtime-main.6d032266.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/cognixia/basic-to-do-app/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.1c1cf65a.chunk.js": "/cognixia/basic-to-do-app/static/js/2.1c1cf65a.chunk.js",
-    "static/js/2.1c1cf65a.chunk.js.map": "/cognixia/basic-to-do-app/static/js/2.1c1cf65a.chunk.js.map",
-    "index.html": "/cognixia/basic-to-do-app/index.html",
-    "precache-manifest.ffe140e1f6c02d73f89009ba34a8653b.js": "/cognixia/basic-to-do-app/precache-manifest.ffe140e1f6c02d73f89009ba34a8653b.js",
-    "service-worker.js": "/cognixia/basic-to-do-app/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/cognixia/basic-to-do-app/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.f1eec35d.chunk.css.map": "/cognixia/basic-to-do-app/static/css/main.f1eec35d.chunk.css.map",
-    "static/js/2.1c1cf65a.chunk.js.LICENSE.txt": "/cognixia/basic-to-do-app/static/js/2.1c1cf65a.chunk.js.LICENSE.txt"
+    "main.css": "/cognixia-app/static/css/main.d1b05096.chunk.css",
+    "main.js": "/cognixia-app/static/js/main.afa64106.chunk.js",
+    "main.js.map": "/cognixia-app/static/js/main.afa64106.chunk.js.map",
+    "runtime-main.js": "/cognixia-app/static/js/runtime-main.c42b8cad.js",
+    "runtime-main.js.map": "/cognixia-app/static/js/runtime-main.c42b8cad.js.map",
+    "static/js/2.2322fbdd.chunk.js": "/cognixia-app/static/js/2.2322fbdd.chunk.js",
+    "static/js/2.2322fbdd.chunk.js.map": "/cognixia-app/static/js/2.2322fbdd.chunk.js.map",
+    "index.html": "/cognixia-app/index.html",
+    "precache-manifest.6df093243ee68d58c00d326cd3e64aa4.js": "/cognixia-app/precache-manifest.6df093243ee68d58c00d326cd3e64aa4.js",
+    "service-worker.js": "/cognixia-app/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/cognixia-app/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.2322fbdd.chunk.js.LICENSE.txt": "/cognixia-app/static/js/2.2322fbdd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/cognixia-app/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6d032266.js",
-    "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.1c1cf65a.chunk.js",
-    "static/css/main.f1eec35d.chunk.css",
-    "static/js/main.c5f0456e.chunk.js"
+    "static/js/runtime-main.c42b8cad.js",
+    "static/js/2.2322fbdd.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.afa64106.chunk.js"
   ]
 }
