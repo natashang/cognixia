@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/cognixia-app/static/css/main.d1b05096.chunk.css",
-    "main.js": "/cognixia-app/static/js/main.afa64106.chunk.js",
-    "main.js.map": "/cognixia-app/static/js/main.afa64106.chunk.js.map",
-    "runtime-main.js": "/cognixia-app/static/js/runtime-main.c42b8cad.js",
-    "runtime-main.js.map": "/cognixia-app/static/js/runtime-main.c42b8cad.js.map",
-    "static/js/2.2322fbdd.chunk.js": "/cognixia-app/static/js/2.2322fbdd.chunk.js",
-    "static/js/2.2322fbdd.chunk.js.map": "/cognixia-app/static/js/2.2322fbdd.chunk.js.map",
-    "index.html": "/cognixia-app/index.html",
-    "precache-manifest.6df093243ee68d58c00d326cd3e64aa4.js": "/cognixia-app/precache-manifest.6df093243ee68d58c00d326cd3e64aa4.js",
-    "service-worker.js": "/cognixia-app/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/cognixia-app/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.2322fbdd.chunk.js.LICENSE.txt": "/cognixia-app/static/js/2.2322fbdd.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/cognixia-app/static/media/logo.5d5d9eef.svg"
+    "main.css": "/cognixia/static/css/main.d1b05096.chunk.css",
+    "main.js": "/cognixia/static/js/main.a43746b2.chunk.js",
+    "main.js.map": "/cognixia/static/js/main.a43746b2.chunk.js.map",
+    "runtime-main.js": "/cognixia/static/js/runtime-main.40f5f630.js",
+    "runtime-main.js.map": "/cognixia/static/js/runtime-main.40f5f630.js.map",
+    "static/js/2.2322fbdd.chunk.js": "/cognixia/static/js/2.2322fbdd.chunk.js",
+    "static/js/2.2322fbdd.chunk.js.map": "/cognixia/static/js/2.2322fbdd.chunk.js.map",
+    "index.html": "/cognixia/index.html",
+    "precache-manifest.895ca5bd7750b2310d75a8704d2d688e.js": "/cognixia/precache-manifest.895ca5bd7750b2310d75a8704d2d688e.js",
+    "service-worker.js": "/cognixia/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/cognixia/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.2322fbdd.chunk.js.LICENSE.txt": "/cognixia/static/js/2.2322fbdd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/cognixia/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c42b8cad.js",
+    "static/js/runtime-main.40f5f630.js",
     "static/js/2.2322fbdd.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.afa64106.chunk.js"
+    "static/js/main.a43746b2.chunk.js"
   ]
 }
