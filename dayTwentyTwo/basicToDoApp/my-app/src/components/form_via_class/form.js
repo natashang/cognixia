@@ -1,12 +1,9 @@
 import React, {Component} from 'react'
-import {Button} from 'react-bootstrap'
-import './form.css'
 
-// Next challenge: splitting the form and list into individual components
-/*
+// Splitted the form and list into individual components
 import FormComponent from './components/form/form'
-import ListItem from './components/listItem/listItem'
-*/
+import ListComponent from './components/list/list'
+
 
 /*
     A class compoment implementation of a form for a To Do List
@@ -37,6 +34,7 @@ export default class Form extends Component{
         
         this.handleInputChange = this.handleInputChange.bind(this)
         this.handleInputSubmit = this.handleInputSubmit.bind(this)
+        this.handleDeleteItem = this.handleDeleteItem.bind(this)
     }
 
     /*
@@ -97,35 +95,16 @@ export default class Form extends Component{
     render() {
         return(
             <div>  
-                {/* <FormComponent/> */}
-                
-                <form onSubmit={this.handleInputSubmit}>
-                    <input type="text" value={this.state.value} autoFocus onChange={this.handleInputChange}/>
-                    <input type="submit" value="Add" id="submitButton"/>            
-                </form>
-                
-                {/* <ListItem/> */}
-
-            
-                <ul>
-                    { this.state.listOfItems.map( item => {
-                        return(
-                            <div>
-                                <li key={item}>{item} 
-                                    <Button
-                                        variant="outline-primary" 
-                                        onClick={() => this.handleDeleteItem(item)}
-                                    >
-                                        X
-                                    </Button>
-                                </li>
-                            </div>
-                        )
-                    })}
-                </ul>
-                
+                <FormComponent 
+                    value={this.state.value}
+                    handleInputChange={this.handleInputChange}
+                    handleInputSubmit={this.handleInputSubmit}
+                />                 
+                <ListComponent
+                    listOfItems={this.state.listOfItems}
+                    handleDeleteItem={this.handleDeleteItem}
+                />                
             </div>            
        );
     }
-
 }

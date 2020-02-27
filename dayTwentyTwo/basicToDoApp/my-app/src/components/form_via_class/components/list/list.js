@@ -11,7 +11,7 @@ export default function ListItem(props) {
                                 <li key={item}>{item} 
                                     <Button
                                         variant="outline-primary" 
-                                        onClick={() => props.handleDeleteItem(item)}
+                                        onClick={(item) => props.handleDeleteItem(item)}
                                     >
                                         X
                                     </Button>
