@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cognixia/basic-to-do-app/precache-manifest.ffe140e1f6c02d73f89009ba34a8653b.js"
+  "/basic-to-do-app/precache-manifest.a7499f6aa7ff168dddc92b478cd9fabf.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/cognixia/basic-to-do-app/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/basic-to-do-app/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
