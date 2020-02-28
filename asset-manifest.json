@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/cognixia/static/css/main.d1b05096.chunk.css",
-    "main.js": "/cognixia/static/js/main.a43746b2.chunk.js",
-    "main.js.map": "/cognixia/static/js/main.a43746b2.chunk.js.map",
-    "runtime-main.js": "/cognixia/static/js/runtime-main.40f5f630.js",
-    "runtime-main.js.map": "/cognixia/static/js/runtime-main.40f5f630.js.map",
-    "static/js/2.2322fbdd.chunk.js": "/cognixia/static/js/2.2322fbdd.chunk.js",
-    "static/js/2.2322fbdd.chunk.js.map": "/cognixia/static/js/2.2322fbdd.chunk.js.map",
-    "index.html": "/cognixia/index.html",
-    "precache-manifest.895ca5bd7750b2310d75a8704d2d688e.js": "/cognixia/precache-manifest.895ca5bd7750b2310d75a8704d2d688e.js",
-    "service-worker.js": "/cognixia/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/cognixia/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.2322fbdd.chunk.js.LICENSE.txt": "/cognixia/static/js/2.2322fbdd.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/cognixia/static/media/logo.5d5d9eef.svg"
+    "main.css": "/cognixia/basic-to-do-app/static/css/main.f1eec35d.chunk.css",
+    "main.js": "/cognixia/basic-to-do-app/static/js/main.c5f0456e.chunk.js",
+    "main.js.map": "/cognixia/basic-to-do-app/static/js/main.c5f0456e.chunk.js.map",
+    "runtime-main.js": "/cognixia/basic-to-do-app/static/js/runtime-main.6d032266.js",
+    "runtime-main.js.map": "/cognixia/basic-to-do-app/static/js/runtime-main.6d032266.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/cognixia/basic-to-do-app/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.1c1cf65a.chunk.js": "/cognixia/basic-to-do-app/static/js/2.1c1cf65a.chunk.js",
+    "static/js/2.1c1cf65a.chunk.js.map": "/cognixia/basic-to-do-app/static/js/2.1c1cf65a.chunk.js.map",
+    "index.html": "/cognixia/basic-to-do-app/index.html",
+    "precache-manifest.ffe140e1f6c02d73f89009ba34a8653b.js": "/cognixia/basic-to-do-app/precache-manifest.ffe140e1f6c02d73f89009ba34a8653b.js",
+    "service-worker.js": "/cognixia/basic-to-do-app/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/cognixia/basic-to-do-app/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.f1eec35d.chunk.css.map": "/cognixia/basic-to-do-app/static/css/main.f1eec35d.chunk.css.map",
+    "static/js/2.1c1cf65a.chunk.js.LICENSE.txt": "/cognixia/basic-to-do-app/static/js/2.1c1cf65a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.40f5f630.js",
-    "static/js/2.2322fbdd.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.a43746b2.chunk.js"
+    "static/js/runtime-main.6d032266.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.1c1cf65a.chunk.js",
+    "static/css/main.f1eec35d.chunk.css",
+    "static/js/main.c5f0456e.chunk.js"
   ]
 }
