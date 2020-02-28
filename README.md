@@ -1,13 +1,14 @@
 # cognixia
 Front end development training
-## Languages: HTML, CSS, JavaScript, T SQL, JSON
+## Languages: HTML, CSS, JavaScript, T SQL, JSON, ReactJS
 ## Tools: npm, nodeJS, Express, MongoDB, ~~PostgreSQL~~, MySQL Workbench, Postman
 ---
 ## Weekly Guide (with Projects)
 1. HTML, CSS, JavaScript
-2. T SQL ([database design](../dayTen/dayFour_DB_design_exercises))
+2. T SQL ([database design](./dayTen/dayFour_DB_design_exercises))
 3. JSON
-4. npm, nodeJS, Express ([comment form](../daySixteen/expressCommentForm)), MongoDB([Basic MongoDB API](../dayEighteen/sampleMongoProject2)), ~~PostgreSQL~~, MySQL ([Basic MySQL API](../dayEighteen/sampleMySQLProject)),  ([Basic Sequelize Log In Authentication]())
+4. npm, nodeJS, Express ([comment form](./daySixteen/expressCommentForm)), MongoDB([Basic MongoDB API](./dayEighteen/sampleMongoProject2)), ~~PostgreSQL~~, MySQL ([Basic MySQL API](./dayEighteen/sampleMySQLProject)),  ([Basic Sequelize Log In Authentication]())
+5. React ([basic to do app](./dayTwentyTwo/basicToDoApp), [galleryScrollApp](./dayTwentyTwo/galleryScrollApp), [paginationApp](./dayTwentyThree/paginationApp))
 ---
 ### Week 1: HTML, CSS, JavaScript
 
@@ -34,4 +35,4 @@ Front end development training
 
 ---
 ### Week 5: React
-* **React:** functional components, class components, props, state, constructors, hooks, router-DOM, switch, refs
+* **React:** functional components, class components, props, state, constructors, hooks, router-DOM, switch, refs, hooks, lifecycle methods, JSX, higher rder components
