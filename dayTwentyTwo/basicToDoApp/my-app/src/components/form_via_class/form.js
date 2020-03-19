@@ -103,7 +103,7 @@ export default class Form extends Component{
                 <ListComponent
                     listOfItems={this.state.listOfItems}
                     handleDeleteItem={this.handleDeleteItem}
-                />                
+                />                 
             </div>            
        );
     }

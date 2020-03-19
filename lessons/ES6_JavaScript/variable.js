@@ -2,7 +2,7 @@
 window.globalvar = 2
 var thisisalsoglobal =1
 
-function() {
+function fun() {
     // function specific declaration, would not be accessible outside of this function
     var thisisoutside = {}
 
@@ -12,7 +12,7 @@ function() {
         let thisisinside = {
 
         }
-        const thisisinside{
+        const thisisinside={
 
         }
     }
