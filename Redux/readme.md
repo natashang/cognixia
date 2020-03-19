@@ -1,0 +1,1 @@
+Note: redux-pizza-list-ver3 is also saved externally of the Cognixia folder and can be viewed live.
